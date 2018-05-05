@@ -36,7 +36,13 @@ public class MainActivity extends ActionBarActivity {
         
         
         /*
+         * 
          * 将会变化的元素封装成一个类，将每一组变化元素按照一个类new出来。通过get方法获取变化元素
+         * 
+         * 
+         * 图片的selector放在drawable里
+         * 
+         * 文字颜色的selector放在color里面
          */
         Tab home = new Tab(R.drawable.home_selector,R.string.home, HomeFragment.class);
         Tab today = new Tab(R.drawable.today_selector, R.string.today,TodayFragment.class);
