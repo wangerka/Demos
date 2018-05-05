@@ -7,7 +7,7 @@ public class HomeFragment extends BaseFragment{
 	@Override
 	void setText(TextView text) {
 		// TODO Auto-generated method stub
-		text.setText("HOME");
+		text.setText("AIR");
 	}
 
 }
