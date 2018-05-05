@@ -1,9 +1,0 @@
-package com.example.fragmenttabhostdemo.bean;
-
-public class Tab {
-	private int image;
-	private Class fragment;
-	
-	
-
-}
