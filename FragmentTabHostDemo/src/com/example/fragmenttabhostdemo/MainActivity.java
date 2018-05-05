@@ -37,11 +37,11 @@ public class MainActivity extends ActionBarActivity {
         
         /*
          * 
-         * 将会变化的元素封装成一个类，将每一组变化元素按照一个类new出来。通过get方法获取变化元素
+         * 封装思想：将会变化的元素封装成一个类，将每一组变化元素按照一个类new出来。通过get方法获取变化元素
          * 
          * 
          * 图片的selector放在drawable里
-         * 
+         *
          * 文字颜色的selector放在color里面
          */
         Tab home = new Tab(R.drawable.home_selector,R.string.home, HomeFragment.class);
@@ -64,7 +64,7 @@ public class MainActivity extends ActionBarActivity {
         
         
         tabHost.getTabWidget().setShowDividers(LinearLayout.SHOW_DIVIDER_NONE);
-        tabHost.setCurrentTab(0);
+        tabHost.setCurrentTab(0);//设置当前页
     }
     
 }
